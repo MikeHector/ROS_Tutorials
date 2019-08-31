@@ -1,0 +1,4 @@
+This package holds some introductory work for ROS. 
+turtleforward - boots turtlesim and tells it to go forward
+turtlemimic - opens two turtlesims and sends the same command to both
+turtletopos - opens turtlesim and drives it to a user specified position

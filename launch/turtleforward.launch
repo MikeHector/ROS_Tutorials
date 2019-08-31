@@ -1,0 +1,11 @@
+<launch>
+
+  <group ns="turtle1">
+    <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+  </group>
+
+  <group ns="turtle1">
+    <node pkg="beginner_tutorials" name="ctrlr" type="just_go_fwd.py"/>
+  </group>
+
+</launch>
